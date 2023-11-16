@@ -1,0 +1,4 @@
+#banner .carousel-inner, #banner .carousel-item{
+    height: 80vh;
+    opacity: 0.9;
+}
