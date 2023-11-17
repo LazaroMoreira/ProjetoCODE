@@ -1,10 +1,12 @@
-<<<<<<< HEAD:novoteste/style.css
-#banner .carousel-inner, #banner .carousel-item{
-    opacity: 0.9;
-}
-=======
 #banner .carousel-inner, #banner .carousel-item{
     height: auto;
     opacity: 0.9;
 }
->>>>>>> main:style.css
+
+#bg-image {
+    background-image: url(img/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
