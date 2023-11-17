@@ -4,9 +4,9 @@
 }
 
 #bg-image {
-    background-image: url(img/background.jpeg);
+    background-image: url(img/background-editado.jpeg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
