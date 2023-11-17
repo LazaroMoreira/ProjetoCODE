@@ -1,0 +1,10 @@
+<<<<<<< HEAD:novoteste/style.css
+#banner .carousel-inner, #banner .carousel-item{
+    opacity: 0.9;
+}
+=======
+#banner .carousel-inner, #banner .carousel-item{
+    height: auto;
+    opacity: 0.9;
+}
+>>>>>>> main:style.css
