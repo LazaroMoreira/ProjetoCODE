@@ -2,3 +2,10 @@
     height: auto;
     opacity: 0.9;
 }
+#bg-image {
+    background-image: url(img/background-editado.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
