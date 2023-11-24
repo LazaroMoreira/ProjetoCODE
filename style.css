@@ -9,3 +9,38 @@
     background-repeat: repeat;
     background-attachment: fixed;
 }
+@font-face {
+    font-family: Droid;
+    src: url(droid.otf);
+}
+@font-face {
+    font-family: EBgaramond-Italic;
+    src: url(EBGaramond-Italic-VariableFont_wght.ttf);
+}
+@font-face { 
+    font-family:EBgaramond;
+    src: url(EBGaramond-VariableFont_wght.ttf);
+}
+
+.display-4{
+    font-family: Droid;
+    font-size: 80px;
+}
+.display-6{
+    font-family: EBgaramond;
+    font-size: 39px;
+}
+
+.txt-complete{
+    font-family: EBgaramond;
+    font-size: 19px;
+}
+.objet-complete{
+    font-family: EBgaramond;
+    font-size: 23px;
+}
+
+.escolha-complete{
+    font-family: EBgaramond;
+    font-size: 22px;
+}
