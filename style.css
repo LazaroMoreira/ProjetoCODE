@@ -1,7 +1,9 @@
-#banner .carousel-inner, #banner .carousel-item{
+#banner .carousel-inner,
+#banner .carousel-item {
     height: auto;
     opacity: 0.9;
 }
+
 #bg-image {
     background-image: url(img/background-editado.jpeg);
     background-size: cover;
@@ -9,38 +11,72 @@
     background-repeat: repeat;
     background-attachment: fixed;
 }
+
+#navbarNav {
+    font-family: Droid;
+    font-size: 30px;
+}
+
+.card1 {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.card2 {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.card3 {
+    font-family: sans-serif;
+    font-size: 14px;;
+}
+
+.text-Mele {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-Senac {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-PT:hover {
+    transform: scale(1.1);
+    transition: .6s;
+}
+
 @font-face {
     font-family: Droid;
     src: url(droid.otf);
 }
-@font-face {
-    font-family: EBgaramond-Italic;
-    src: url(EBGaramond-Italic-VariableFont_wght.ttf);
-}
-@font-face { 
-    font-family:EBgaramond;
-    src: url(EBGaramond-VariableFont_wght.ttf);
-}
 
-.display-4{
+
+.display-4 {
     font-family: Droid;
     font-size: 80px;
 }
-.display-6{
-    font-family: EBgaramond;
+
+.display-6 {
+    font-family: sans-serif;
     font-size: 39px;
 }
 
-.txt-complete{
-    font-family: EBgaramond;
+.txt-complete {
+    font-family: sans-serif;
     font-size: 19px;
-}
-.objet-complete{
-    font-family: EBgaramond;
-    font-size: 23px;
+    text-align: justify;
 }
 
-.escolha-complete{
-    font-family: EBgaramond;
-    font-size: 22px;
+.objet-complete {
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.escolha-complete {
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 18px;
 }
