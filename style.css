@@ -11,20 +11,18 @@
 }
 
 body {
-    animation: fadeIn 2.5s;
+    animation-duration: 4s;
+    animation-name: fadeIn;
+
 }
 
 @keyframes fadeIn {
-    0%   {opacity: 0; background: linear-gradient(145deg, rgba(247,246,113,1) 0%, rgba(0,0,0,1) 30%);
-}
-    20%  {opacity: 0.2; background: linear-gradient(145deg, rgba(247,246,113,1) 0%, rgba(0,0,0,1) 30%);
-}
-    40%  {opacity: 0.4; background: linear-gradient(145deg, rgba(247,246,113,1) 0%, rgba(0,0,0,1) 30%);
-}
-    60%  {opacity: 0.6; background: linear-gradient(145deg, rgba(247,246,113,1) 0%, rgba(0,0,0,1) 30%);
-}
-    80% {opacity: 0.8; background: linear-gradient(145deg, rgba(247,246,113,1) 0%, rgba(0,0,0,1) 30%);
-}
-    100% {opacity: 1; background: linear-gradient(145deg, rgba(247,246,113,1) 0%, rgba(0,0,0,1) 30%);
-}
+    from {
+        opacity: 0;
+        background: linear-gradient(145deg, rgba(247,246,113,1) 0%, rgba(0,0,0,1) 30%);
+    } 
+    to {
+        opacity: 1;
+        background: linear-gradient(145deg, rgba(247,246,113,1) 0%, rgba(0,0,0,1) 30%);
+    }
 }
