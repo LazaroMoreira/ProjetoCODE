@@ -1,114 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>PrimeiroSite</title>
-</head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>PrimeiroSite</title>
+    </head>
 
-<body>
-    <div id="bg-image">
-        <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary bg-opacity-75">
-                <div class="container-fluid px-5 ">
-                    <a class="navbar-brand" href="#">
-                        <img src="img/teste1-sem-fundo.png" alt="LogoMarca" width="170" height="125"
-                            class="d-inline-block align-text-top">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="1Sobre.html">SOBRE NÓS/SURGIMENTO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="2VisãoEProduto.html">PRODUTO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="3Objetivo.html">OBJETIVO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="4Patrocinadores.html">PATROCINADORES</a>
-                            </li>
-                        </ul>
+    <body>
+           <header>
+                <nav class="navbar navbar-expand-lg bg-transparent">
+                    <div class="container-fluid px-5 ">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/teste1 (2).png" alt="LogoMarca" width="170" height="125"
+                                class="d-inline-block align-text-top">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="./1Sobre.html">Sobre nós/Surgirmento</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./2VisãoEProduto.html">Produto/Visão</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./3Objetivo.html">Objetivo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./4Patrocinadores.html">Patrocinadores</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
-        </header>
+                </nav>
 
-        <main>
-            <div class="container">
+            </header>
 
-                <div>
-                    <h3 class="display-4 my-5 text-center text-body-emphasis"> <img class="img-fluid" src="img/lampada-sem-fundo.png" alt="LampMarca"> NOSSA VISÃO</h3>
-                </div>
+            
+            <main>
 
-                <div class="container row align-content-around bg-body-secondary bg-opacity-25 mb-5 mx-0">
+                <div id="bg-image">
 
-                    <div class="col-lg my-5 text-center"> <img class="img-fluid" src="./img/Marketing-com-visao-de-negócio.jpg"
-                        alt="imgdosptrcinadores">
+                    <p class="display-4 text-center my-5 text-body-emphasis"><img src="img/lampada-sem-fundo.png" alt="LampMarca"> NOSSA VISÃO</p>
+                    
+                    
+                    
+                    
+                    <div class="container bg-body-secondary bg-opacity-25">
+                        <div class="row justify-content-around m-5">
 
-                </div>
+                            <div class="col-lg-6 py-5">
+                                 <div class="img-fluid">
+                                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img src="./img/Marketing-com-visao-de-negócio.jpg" class="d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img src="./img/visao.gif" class="d-block w-100" alt="...">
+                                          </div>
+                                          
+                                        </div>
+                                      </div>
+                                 </div>
+                               
+                            </div>
 
-                    <div class="txt-complete col-lg-5 lead my-3 mt-5">
-                        <hr>
-                        <p>
-                            <span class="fw-bold">A Infor Mei</span> busca alavancar pequenos negócios de forma consciente com a ferramenta que
-                            possibilitará um melhor proveito e organização para o empreendedor
-                        </p>
-                        <hr>
+                            <div class="col-lg-6 mt-1 text-start">
+
+                                <p class="display-6 mt-3"> Veja nossa visão: </p>
+                                <hr>
+                                <p class="txt-complete lead">
+
+                                    A Infor Mei busca alavancar pequenos negócios de forma consciente com a ferramenta que possibilitará um melhor proveito e organização para o empreendedor.
+
+                                </p>
+                                <hr>
+                            </div>
+                        </div>
                     </div>
+                    
+                
+
+                    <p class="display-4 text-center my-5 text-body-emphasis"> <img src="img/lampada-sem-fundo.png" alt="LampMarca"> NOSSO PRODUTO</p>
+                    <div class="container-fluid text-center"> 
+
+                        <div class="container bg-body-secondary bg-opacity-25">
+                            <div class="row justify-content-around m-5">
+    
+                                <div class="col-lg-6 text-start ">
+                                    <p class="display-6 mt-3"> Saiba mais sobre nossos produtos: </p>
+                                    <hr>
+                                    <p class="txt-complete lead">
+    
+                                        Nós da Infor Mei trazemos como principal produto a criação de um site independente, que vai trazer entre suas funções meios de facilitar o gerenciamento de tempo e custo para os pequenos empreendedores. 
+                                        Além de outras informações que envolvem Marketing e precificação de serviços.
+                                    </p>
+                                    <hr>
+                                    <p class="display-6 mt-3"> Atuamos nos segmentos: </p>
+                                    <hr>
+                                    <ul class="txt-complete lead">
+                                        <li>Profissionais de Estética</li>
+                                        <li>Artesão(ã) de Bijuterias</li>
+                                        <li>Mercearia</li>
+                                        <li>Oficinas</li>
+                                    </ul>
+                                    <hr>
+                                </div>
+    
+                                <div class="col-lg-5 m-4 pt-5">
+                                    
+                                    <div class="img-fluid">
+                                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item active">
+                                                <img src="./img/criacao-de-sites.png" class="d-block w-100" alt="...">
+                                              </div>
+                                              <div class="carousel-item">
+                                                <img src="./img/giphy.gif" class="d-block w-100" alt="...">
+                                              </div>
+                                              
+                                            </div>
+                                          </div>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
 
                 </div>
-            </div>
 
+            </main>
 
-            <div class="container">
+            
+        
+            <footer class="container-fluid text-white bg-dark">
+                
+                <div class="row p-5 ">
 
-                <div>
-                    <h3 class="display-4 my-5 text-center text-body-emphasis"> <img class="img-fluid" src="img/lampada-sem-fundo.png" alt="LampMarca">NOSSO PRODUTO</h3>
+                
                 </div>
 
-                <div class="container row  justify-content-center bg-body-secondary bg-opacity-25 mb-5 mx-0">
-                    <div class="txt-complete col-lg lead mt-5">
-                        <hr>
-                        <p>
-                            Trazemos como principal produto a criação de um site independente,
-                            que vai trazer entre suas funções meios de facilitar o gerenciamento de tempo e custo para os pequenos empreendedores.
-                            Além de outras informações que envolvem Marketing e precificação de serviços.
-                        </p>
-                        <hr>
-                    </div>
+        
+        
+            </footer>
 
-                    <div class="col-lg-5 text-center px-2"> <img class="img-fluid" src="./img/criacao-de-sites.png"
-                            alt="criacao-de-sites">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+            </script>
 
-                    </div>
-                </div>
-            </div>
-           
-        </main>
 
-        <footer class="container-fluid text-white bg-dark">
-            <div class="row pb-5 pt-5 ">
-            </div>
-        </footer>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-        </script>
-
-</body>
+    </body>
 
 
 </html>
